@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgba(242, 226, 150);
+        }
+
+        .face {
+            width: 500px;
+            ;
+            height: 500px;
+            background-color: rgba(252, 214, 113);
+            border-radius: 50%;
+            position: absolute;
+            top: 150px;
+            left: 500px;
+        }
+
+        .lefteye {
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            border-radius: 50%;
+            position: relative;
+            top: 120px;
+            left: 135px;
+            float: left;
+
+
+        }
+
+        .righteye {
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            border-radius: 50%;
+            position: relative;
+            top: 120px;
+            left: 235px;
+            float: left;
+
+        }
+
+        .mouth {
+            width: 200px;
+            height: 100px;
+            background-color: black;
+            border-radius: 0  0 200px 200px;
+            position: relative;
+            top: 300px;
+            left: 130px;
+            
+        }
+        .mouth:hover{
+            border-radius:200px 200px 0  0 ;
+        }
+      
+        .lick{
+            width: 140px; 
+            height:70px ;
+            background-color:white ;
+            border-radius:0 0 140px 140px ;
+            position: relative;
+            left:30; 
+            top: 10px; ;
+        }
+        lick:hover{
+            border-radius:0  0 140px 140px ;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="face">
+        <div class="lefteye"></div>
+        <div class="righteye"></div>
+        <div class="mouth">
+            <div id="lick"></div>
+        </div>
+    </div>
+</body>
+
+</html>
